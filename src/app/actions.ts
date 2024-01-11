@@ -8,8 +8,8 @@ export async function fetchProducts({
   lastProductId?: string | undefined
 }) {
   const params = lastProductId
-    ? { starting_after: lastProductId, limit: 8 }
-    : { limit: 8 }
+    ? { starting_after: lastProductId, limit: 12 }
+    : { limit: 12 }
 
   // eslint-disable-next-line camelcase
   const { data: products, has_more } = await stripe.products.list(params)
