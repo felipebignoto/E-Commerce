@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/localizations": "^1.26.10",
-    "@clerk/nextjs": "^4.21.14",
+    "@clerk/nextjs": "^4.29.3",
     "@prisma/client": "^5.7.0",
     "@rocketseat/eslint-config": "^2.1.0",
     "@stripe/stripe-js": "^2.2.2",
